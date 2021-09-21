@@ -1,0 +1,14 @@
+@font-face {
+    font-family:Gre ;
+    src: url('../Blooger/fonts/Grechen_Fuemen/GrechenFuemen-Regular.ttf');
+}
+
+@font-face {
+    font-family:Grey_Qo;
+    src: url('../Blooger/fonts/Grey_Qo/GreyQo-Regular.ttf');
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url('../Blooger/fonts/Rubik_Beastly/RubikBeastly-Regular.ttf');
+}
