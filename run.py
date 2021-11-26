@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 @app.route('/home')
-def Blogpage():
+def home():
     return render_template('navigation.html')
 
 if __name__ == '__main__':
