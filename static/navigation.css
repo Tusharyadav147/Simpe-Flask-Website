@@ -367,3 +367,39 @@ footer.form-element a{
         display: initial;
     }
 }
+
+@media only screen and (max-width:550px) {
+    .site-title {
+        background: url(./IMG20210823145431.jpg);
+        background-size: contain;
+        height: 430px;
+        width: 115%;
+        display: flex;
+        border-radius: 5rem;
+        justify-content: center;
+    }
+    h1 {
+        font-family: var(--grey_qo);
+        font-size: 2rem;
+    }
+    .site-background {
+        padding-top: 2rem;
+    }
+    .blog {
+        background: url(./assets/Abract01.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 600px;
+        width: 124%;
+    }
+    blog-content {
+        width: 160%;
+        margin: 3rem 5rem;
+    }
+    .blog-post {
+        padding-top: 1rem;
+    }
+    .owl-carousel.owl-drag .owl-item{
+        margin-left: 10rem;
+    }
+}
